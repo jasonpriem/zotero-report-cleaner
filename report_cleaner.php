@@ -133,7 +133,7 @@ Changelog:
    }
    function checkReportSource(thisForm, appendWarningHere) {
       if (!document.getElementById || !document.getElementsByTagName) {return false;}
-      var testString = "<!DOCTYPE html PUBLIC";
+      var testString = "<!DOCTYPE html";
       var docTypePos = thisForm.orig.value.indexOf(testString);
       if (docTypePos == 0) {
          return true;
