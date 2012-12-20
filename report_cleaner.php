@@ -24,6 +24,8 @@ Changelog:
 						-replaced php report-source validation with javascript validation
 						-added 'select all' javascript link to checkboxes
 
+19 Dec, 2012 2.01 -moved source code to GitHub, note that I'm no longer adding new features.
+
 ****************************************************************************************************************/
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
@@ -273,7 +275,7 @@ else { //if the form hasn't yet been submitted
 	<h1>Zotero Report Customizer</h1>
 	<div id="intro">
 		<p>Zotero\'s reports are very useful, but they are unfortunately a bit inflexible.  So, I hacked together a script to give me a little more control. In addition to letting you modify the data included, it also inserts all the styling as inline CSS, so you can send a colleague your pretty report without having to include seperate stylesheet files.</p>
-		<p>If you have any problems or suggestions, feel free to let me know; my contact information\'s on my <a href="http://jasonpriem.org">homepage.</a>  View the source code <a href="./report_cleaner_src.php">here</a>.</p>
+		<p><em>Dec. 2012 update:</em>I\'d love to keep adding features on this, but I\'m currently working on a PhD and co-founding a <a href="http://impactstory.org">startup</a>, and the time just ain\'t there. However, feel free to fork it on <a href="https://github.com/jasonpriem/zotero-report-cleaner">GitHub</a> and hack away; I\'m happy to pull in new features, or of course you can just run your own version somewhere.</p>
 
 	</div>
 	
