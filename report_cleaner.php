@@ -175,7 +175,17 @@ $remove_these = array(
 		'Call Number', 
 		'Repository', 
 		'Signature', 
-		'Language', 
+		'Language',
+    'Author',
+    'Volume',
+    'Issue',
+    'Publication',
+    'Date',
+    'Extra',
+    'Journal Abbr',
+    'DOI',
+    'Library Catalog',
+    'Accessed', 
 		'related'
 		);
 
